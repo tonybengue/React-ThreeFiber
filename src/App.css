@@ -1,0 +1,52 @@
+body {
+  min-height: 100vh;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: black;
+}
+
+header ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  width: 100%;
+}
+
+header li {
+  color: white;
+  min-width: 75px;
+  text-align: center;
+  border: 3px solid green;
+  padding: 1rem;
+}
+
+header li:first-child {
+  margin-right: auto;
+  font-size: 2rem;
+  border: none;
+}
+
+header li:not(:first-child) {
+  background: white;
+  color: black;
+}
+
+footer {
+  margin-top: auto;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
